@@ -1,0 +1,27 @@
+============================================================
+EVALUATION METRICS
+============================================================
+Ground truth anomaly values: [15 11]
+Detected unique anomaly values: [11.       14.999999 17.       19.       21.       22.       23.
+ 24.       25.       26.       31.000002 33.       34.       35.
+ 37.       38.       44.       45.       46.       47.       48.
+ 49.       50.       51.       52.       53.       54.       55.
+ 56.       57.       58.       59.       59.999996 69.       70.
+ 71.       72.       73.       74.       75.       76.       76.99999 ]
+
+--- Confusion Matrix ---
+True Positives (TP):  1
+False Positives (FP): 41
+False Negatives (FN): 1
+True Negatives (TN):  1627
+
+Precision: 0.0238 (2.38%)
+Recall: 0.5000 (50.00%)
+F1-Score: 0.0455 (4.55%)
+Accuracy: 0.9749 (97.49%)
+
+--- Detailed Report ---
+Correctly detected: [11.]
+Missed anomalies: [15]
+False positives (first 10): [14.999999 17.       19.       21.       22.       23.       24.
+ 25.       26.       31.000002]
